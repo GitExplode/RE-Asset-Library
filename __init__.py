@@ -1,12 +1,12 @@
 bl_info = {
 	"name": "RE Asset Library",
 	"author": "NSA Cloud",
-	"version": (0, 25),
+	"version": (0, 25, 1),
 	"blender": (4, 3, 0),
 	"location": "Asset Browser > RE Assets",
 	"description": "Quickly search through and import RE Engine meshes.",
-	"wiki_url": "https://github.com/NSACloud/RE-Asset-Library",
-	"tracker_url": "",
+	"wiki_url": "https://github.com/miqote69/RE-Asset-Library",
+	"tracker_url": "https://github.com/miqote69/RE-Asset-Library/issues",
 	"category": "Import-Export"}
 
 import bpy
@@ -46,6 +46,7 @@ from .modules.pak.re_pak_utils import (
 
 from .modules.asset.re_asset_utils import (
 	buildNativesPathFromObj,
+	setDD2September2026Versions,
 
 )
 from .modules.asset.blender_re_asset import (
@@ -56,6 +57,7 @@ from .modules.asset.blender_re_asset import (
 	)
 from .modules.asset.re_asset_operators import (
 	getGameNameFromAssetBrowser,
+	getAssetBlendPathFromAssetBrowser,
 	getAssetLibrary,
 	unzipLibrary,
 	loadGameInfo,
@@ -543,6 +545,24 @@ class WM_OT_OpenREAssetLibraryFolder(Operator):
 		return {'FINISHED'}
 
 
+class WM_OT_UpdateDD2Formats(Operator):
+	bl_label = "Use DD2 September 2026 Formats"
+	bl_description = "Update this DD2 library's MESH, MDF2 and TEX version numbers for the September 2026 game update. Then use Reload Pak Cache and Force Extract Files"
+	bl_idname = "re_asset.update_dd2_formats"
+
+	@classmethod
+	def poll(cls,context):
+		return getGameNameFromAssetBrowser() == "DD2"
+
+	def execute(self,context):
+		blendPath = getAssetBlendPathFromAssetBrowser()
+		if blendPath is None:
+			self.report({"ERROR"},"DD2 asset library files were not found.")
+			return {'CANCELLED'}
+		setDD2September2026Versions(os.path.join(os.path.dirname(blendPath),"GameInfo_DD2.json"))
+		self.report({"INFO"},"DD2 formats updated. Reload Pak Cache, then enable Force Extract Files.")
+		return {'FINISHED'}
+
 class ASSETBROWSER_PT_REAssetToolPanel(Panel):
 	bl_label = "RE Asset Library"
 	bl_idname = "ASSETBROWSER_PT_REAssetToolPanel"
@@ -565,6 +585,8 @@ class ASSETBROWSER_PT_REAssetToolPanel(Panel):
 			layout.operator("re_asset.extract_game_files",icon = "DOCUMENTS")
 			layout.operator("re_asset.open_chunk_extract_folder",icon = "FOLDER_REDIRECT")
 			layout.operator("re_asset.reload_pak_cache",icon = "FILE_REFRESH")
+			if gameName == "DD2":
+				layout.operator("re_asset.update_dd2_formats",icon = "FILE_REFRESH")
 			layout.operator("re_asset.check_for_library_update",icon="IMPORT")
 			
 		else:
@@ -782,6 +804,7 @@ classes = [
 	WM_OT_CreateNewREAssetLibrary,
 	WM_OT_DetectREAssetLibrary,
 	WM_OT_OpenREAssetLibraryFolder,
+	WM_OT_UpdateDD2Formats,
 	WM_OT_CheckForREAssetLibraryUpdate,
 	WM_OT_OpenLibraryFolder,
 	WM_OT_GenerateMaterialCompendium,

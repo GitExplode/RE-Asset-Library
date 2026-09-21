@@ -1,4 +1,30 @@
-# End Of Support Notice
+# miqote69 fork: DD2 Title Update 3.2
+
+**0.25.1 — September 6, 2026.**
+
+[Download this fork](https://github.com/miqote69/RE-Asset-Library/archive/refs/heads/main.zip)
+
+Fixes reading DD2's September 2026 PAK format: flag `0x40` introduces an
+additional table before the encryption key and chunk remap table. Reading
+those at the old offsets broke cache generation and extraction.
+
+After installing this fork and the patched [RE Mesh Editor](https://github.com/miqote69/RE-Mesh-Editor):
+
+1. Select **RE Assets - DD2** in the Asset Browser.
+2. Open the **RE Asset Library** menu and click **Use DD2 September 2026 Formats**.
+   This changes only `MESH_VERSION`, `MDF2_VERSION`, and `TEX_VERSION` in that
+   library's `GameInfo_DD2.json` to `260421070`, `51`, and `251211553`.
+3. Click **Reload Pak Cache** and enable **Force Extract Files** to import
+   current files instead of previously extracted copies.
+
+The format change is explicit; installing this addon does not rewrite existing
+catalog metadata. Old catalogs remain usable with old game data until changed.
+The button does not update thumbnails, create new asset paths, or convert Mods.
+See [validation and limitations](DD2-PATCH-VALIDATION.md).
+
+The original author's notice and documentation follow below.
+
+# Upstream End Of Support Notice
 
 I am ending development of my RE Engine addons. No further updates or support will be provided.
 

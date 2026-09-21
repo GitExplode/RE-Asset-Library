@@ -1,0 +1,427 @@
+{
+    "re_chunk_000.pak": {
+        "totalUncompressedSize": 85199643527,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 15740346505,
+            "Effect Files": 0,
+            "Model Files": 4670524020,
+            "Model Related Files": 278904296,
+            "Other Files": 40710667,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 60173156592,
+            "User Files": 0,
+            "Video Files": 4296001447
+        }
+    },
+    "re_chunk_000.pak.patch_001.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_002.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_003.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_004.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_005.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_006.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_007.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_008.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_009.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_010.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_011.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_012.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_013.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_014.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "re_chunk_000.pak.patch_015.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593180.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593190.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593200.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593210.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593220.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593230.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593240.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593250.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    },
+    "dlc\\re_dlc_stm_2593260.pak": {
+        "totalUncompressedSize": 0,
+        "categories": {
+            "Animation Files": 0,
+            "Audio Files": 0,
+            "Effect Files": 0,
+            "Model Files": 0,
+            "Model Related Files": 0,
+            "Other Files": 0,
+            "Prefab Files": 0,
+            "Scene Files": 0,
+            "Text Files": 0,
+            "Texture Files": 0,
+            "User Files": 0,
+            "Video Files": 0
+        }
+    }
+}

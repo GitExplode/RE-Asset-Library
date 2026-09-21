@@ -84,11 +84,7 @@ class PakTOC():
 		tocData = file.read(entrySize*header.entryCount)
 		
 		if header.featureIsTOCEncrypted:
-			if header.featureUseUnknTable:
-				file.seek(4,1)#Skip empty table, used in wilds HD texture pak
-				
-			if header.featureUseUnknRE9Data:
-				file.seek(9,1)#Skip RE9 Unkn Data
+			header.skipPostTOCData(file)
 			decryptStartTime = time.time()
 			
 			encryptedKey = bytearray(file.read(128))
@@ -153,6 +149,7 @@ class PakHeader():
 		self.featureIsTOCEncrypted = False
 		self.featureUseUnknTable = False
 		self.featureUseRemapTable = False
+		self.featureUseEntryRemaps = False
 	def read(self,file):
 		self.magic = read_uint(file)
 		if self.magic != 1095454795:
@@ -167,6 +164,7 @@ class PakHeader():
 		self.featureIsTOCEncrypted = bool((self.feature >> 3) & 1)
 		self.featureUseUnknTable = bool((self.feature >> 4) & 1)
 		self.featureUseRemapTable = bool((self.feature >> 5) & 1)
+		self.featureUseEntryRemaps = bool((self.feature >> 6) & 1)
 		
 		
 		if self.majorVersion != 2 and self.majorVersion != 4 or self.minorVersion != 0 and self.minorVersion != 1 and self.minorVersion != 2:
@@ -175,6 +173,22 @@ class PakHeader():
 		#if self.feature != 0 and self.feature != 8 and self.feature != 24 and self.feature != 40:
 		#	raise Exception(f"Unsupported Encryption Type ({self.feature})")
 			
+	def skipPostTOCData(self,file):
+		"""Position at the key after optional PAK sections (DD2 September 2026)."""
+		if self.featureUseUnknTable:
+			file.seek(4,1)
+		if self.featureUseUnknRE9Data:
+			file.seek(9,1)
+		if self.featureUseEntryRemaps:
+			count = read_uint64(file)
+			# The count describes actual bytes before the key, not TOC entries.
+			start = file.tell()
+			end = file.seek(0,2)
+			file.seek(start)
+			if count * 16 > end - file.tell():
+				raise EOFError("Truncated PAK entry remap table")
+			file.seek(count * 16,1)
+
 	def write(self,file):
 		write_uint(file,self.magic)
 		write_ubyte(file,self.majorVersion)
@@ -233,10 +247,9 @@ class PakFile():
 		if self.header.majorVersion >= 5 or (self.header.majorVersion == 4 and self.header.minorVersion >= 2) and self.header.featureUseRemapTable:
 			tocStartPos = file.tell()
 			remapTableOffset = 16 + self.header.entryCount * 48
-			if self.header.featureUseUnknTable:
-				remapTableOffset += 4#Skip unkn table
-			if self.header.featureUseUnknRE9Data:
-				remapTableOffset += 9#Skip unkn data
+			file.seek(remapTableOffset)
+			self.header.skipPostTOCData(file)
+			remapTableOffset = file.tell()
 			if self.header.featureIsTOCEncrypted:
 				remapTableOffset += 128#Encryption key size
 			#print(f"Remap table offset: {remapTableOffset}")

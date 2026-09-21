@@ -22,6 +22,17 @@ def loadGameInfo(gameInfoPath):
 		raise Exception("GameInfo version is newer than the currently installed version.\nUpdate the RE-Asset-Library addon from the addon preferences.")
 	return gameInfo
 
+def setDD2September2026Versions(gameInfoPath):
+	"""Explicit catalog migration; called only by the DD2 update operator."""
+	gameInfo = loadGameInfo(gameInfoPath)
+	if gameInfo["GameName"] != "DD2":
+		raise ValueError("Select a Dragon's Dogma 2 library.")
+	gameInfo["fileVersionDict"].update({
+		"MESH_VERSION":"260421070", "MDF2_VERSION":"51", "TEX_VERSION":"251211553",
+	})
+	with open(gameInfoPath,"w",encoding="utf-8") as file:
+		json.dump(gameInfo,file,indent=4,ensure_ascii=False)
+
 def getFileCRC(filePath):
 	size = 1024*1024*10  # 10 MiB chunks
 	with open(filePath, 'rb') as f:

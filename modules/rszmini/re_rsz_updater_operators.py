@@ -8,7 +8,9 @@ from ..blender_utils import showMessageBox
 from .re_rsz_updater_utils import batchUpdateRSZFiles
 
 
-def getCRCCompendiumAssetLibraryItems():
+_crcCompendiumAssetLibraryItemsCache = []
+def getCRCCompendiumAssetLibraryItems(self,context):
+	global _crcCompendiumAssetLibraryItemsCache
 	libEntryList = []
 	for lib in bpy.context.preferences.filepaths.asset_libraries:
 		if lib.name.startswith("RE Assets - "):
@@ -16,7 +18,8 @@ def getCRCCompendiumAssetLibraryItems():
 			compendiumPath = os.path.join(bpy.path.abspath(lib.path),f"CRCCompendium_{gameName}.json")
 			if os.path.isfile(compendiumPath):
 				libEntryList.append((compendiumPath,gameName,""))
-	return libEntryList
+	_crcCompendiumAssetLibraryItemsCache = libEntryList#Keep a reference alive, Blender can crash if a dynamic enum's strings get garbage collected
+	return _crcCompendiumAssetLibraryItemsCache
 
 class WM_OT_BatchRSZUpdater(Operator):
 	bl_label = "Batch RSZ CRC Updater"
@@ -27,7 +30,7 @@ class WM_OT_BatchRSZUpdater(Operator):
 	assetLib: bpy.props.EnumProperty(
 		name="Game",
 		description="Choose which game to update MDF files for. This is only supported for asset libraries that have support for this feature",
-		items=getCRCCompendiumAssetLibraryItems()
+		items=getCRCCompendiumAssetLibraryItems
 		)
 	
 	dirPath : bpy.props.StringProperty(

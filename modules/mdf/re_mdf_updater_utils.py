@@ -7,7 +7,7 @@ from ..pak.re_pak_utils import loadGameInfo,extractFilesFromPakCache,PakCacheStr
 from ..asset.re_asset_utils import loadREAssetCatalogFile
 from io import BytesIO
 from shutil import copyfile
-from .file_re_mdf import readMDF,writeMDF,Property,TextureBinding,MDFFile
+from .file_re_mdf import readMDF,writeMDF,Property,TextureBinding,GPBFEntry,MDFFile
 def makeMDFBackup(mdfPath):
 	bakIndex = 0
 	bakPath = f"{mdfPath}.bak{bakIndex}"
@@ -95,6 +95,10 @@ def batchUpdateMDFFiles(modDirectory,compendiumPath,searchSubdirectories,createB
 		print(f"Checking {mdfPath}")
 		requiresUpdate = False
 		try:
+			currentVersion = int(os.path.splitext(mdfPath)[1].replace(".",""))
+			if currentVersion != int(mdfVersion):
+				print(f"MDF is version {currentVersion}, updating to {mdfVersion}...")
+				requiresUpdate = True
 			mdfFile = readMDF(mdfPath)
 			if gameName == "MHWILDS":
 				if mdfFile.Header.materialFlags == 0:
@@ -128,6 +132,45 @@ def batchUpdateMDFFiles(modDirectory,compendiumPath,searchSubdirectories,createB
 				else:
 					sampleMaterial = mmtrMaterialCache[mmtrHash]
 				if sampleMaterial != None:
+					
+					#Shader-defined metadata (shaderType, shaderLODNum, bakeTextureArraySize)
+					#These are dictated by the mmtr/shader definition, not something mods customize
+					#(unlike the flags/flagsB bitfields, which hold mod-editable render toggles and are left alone),
+					#so they should always be kept in sync with the current game version's sample material.
+					for fieldName in ("shaderType","shaderLODNum","bakeTextureArraySize"):
+						oldValue = getattr(material,fieldName)
+						newValue = getattr(sampleMaterial,fieldName)
+						if oldValue != newValue:
+							print(f"Changed {fieldName} from {oldValue} to {newValue} on {material.materialName}")
+							setattr(material,fieldName,newValue)
+							requiresUpdate = True
+					
+					#GPU Buffer (GPBF) bindings
+					#Like shaderType, these are dictated by the shader/mmtr definition rather than being mod-editable data,
+					#so missing/stale entries are fully replaced with the sample's list rather than value-merged like textures.
+					newGPBFNameSet = set(entry.name for entry in sampleMaterial.gpbfBufferNameList)
+					oldGPBFNameSet = set(entry.name for entry in material.gpbfBufferNameList)
+					if newGPBFNameSet != oldGPBFNameSet:
+						requiresUpdate = True
+						addedGPBFDifference = newGPBFNameSet.difference(oldGPBFNameSet)
+						removedGPBFDifference = oldGPBFNameSet.difference(newGPBFNameSet)
+						if len(addedGPBFDifference) != 0:
+							print(f"Added GPU buffer bindings in {material.materialName} material:")
+							print(addedGPBFDifference)
+						if len(removedGPBFDifference) != 0:
+							print(f"Removed GPU buffer bindings in {material.materialName} material:")
+							print(removedGPBFDifference)
+						newGPBFNameList = []
+						newGPBFPathList = []
+						for index, nameEntry in enumerate(sampleMaterial.gpbfBufferNameList):
+							copiedNameEntry = GPBFEntry()
+							copiedNameEntry.name = nameEntry.name
+							copiedPathEntry = GPBFEntry()
+							copiedPathEntry.name = sampleMaterial.gpbfBufferPathList[index].name
+							newGPBFNameList.append(copiedNameEntry)
+							newGPBFPathList.append(copiedPathEntry)
+						material.gpbfBufferNameList = newGPBFNameList
+						material.gpbfBufferPathList = newGPBFPathList
 					
 					#Properties
 					#Fix incorrect padding
@@ -223,7 +266,14 @@ def batchUpdateMDFFiles(modDirectory,compendiumPath,searchSubdirectories,createB
 			if requiresUpdate:
 				if createBackups:
 					makeMDFBackup(mdfPath)
-				writeMDF(mdfFile, mdfPath)
+				if currentVersion != int(mdfVersion):
+					newMdfPath = os.path.splitext(mdfPath)[0]+f".{mdfVersion}"
+					writeMDF(mdfFile,newMdfPath)
+					if newMdfPath != mdfPath:
+						os.remove(mdfPath)#Remove the old-version file now that its replacement has been written
+					print(f"Converted to mdf2.{mdfVersion}: {newMdfPath}")
+				else:
+					writeMDF(mdfFile, mdfPath)
 				updatedFileCount += 1
 				print("\nUpdate completed.")
 			else:
@@ -315,6 +365,44 @@ def batchUpdateMDFCollections(compendiumPath,bpy):
 			else:
 				sampleMaterial = mmtrMaterialCache[mmtrHash]
 			if sampleMaterial != None:
+				
+				#Shader-defined metadata (shaderType, shaderLODNum, bakeTextureArraySize)
+				#These are dictated by the mmtr/shader definition, not something mods customize
+				#(unlike the flags/flagsB bitfields, which hold mod-editable render toggles and are left alone),
+				#so they should always be kept in sync with the current game version's sample material.
+				if matData.shaderType != str(sampleMaterial.shaderType):
+					print(f"Changed shaderType from {matData.shaderType} to {sampleMaterial.shaderType} on {materialObj.name}")
+					matData.shaderType = str(sampleMaterial.shaderType)
+					requiresUpdate = True
+				if matData.flags.shaderLODNum != sampleMaterial.shaderLODNum:
+					print(f"Changed shaderLODNum from {matData.flags.shaderLODNum} to {sampleMaterial.shaderLODNum} on {materialObj.name}")
+					matData.flags.shaderLODNum = sampleMaterial.shaderLODNum
+					requiresUpdate = True
+				if matData.flags.bakeTextureArraySize != sampleMaterial.bakeTextureArraySize:
+					print(f"Changed bakeTextureArraySize from {matData.flags.bakeTextureArraySize} to {sampleMaterial.bakeTextureArraySize} on {materialObj.name}")
+					matData.flags.bakeTextureArraySize = sampleMaterial.bakeTextureArraySize
+					requiresUpdate = True
+				
+				#GPU Buffer (GPBF) bindings
+				#Like shaderType, these are dictated by the shader/mmtr definition rather than being mod-editable data,
+				#so missing/stale entries are fully replaced with the sample's list rather than value-merged like textures.
+				newGPBFNameSet = set(entry.name for entry in sampleMaterial.gpbfBufferNameList)
+				oldGPBFNameSet = set(item.gpbfDataString.split(",")[0] for item in matData.gpbfData_items)
+				if newGPBFNameSet != oldGPBFNameSet:
+					requiresUpdate = True
+					addedGPBFDifference = newGPBFNameSet.difference(oldGPBFNameSet)
+					removedGPBFDifference = oldGPBFNameSet.difference(newGPBFNameSet)
+					if len(addedGPBFDifference) != 0:
+						print(f"Added GPU buffer bindings in {materialObj.name}:")
+						print(addedGPBFDifference)
+					if len(removedGPBFDifference) != 0:
+						print(f"Removed GPU buffer bindings in {materialObj.name}:")
+						print(removedGPBFDifference)
+					matData.gpbfData_items.clear()
+					for index, nameEntry in enumerate(sampleMaterial.gpbfBufferNameList):
+						pathEntry = sampleMaterial.gpbfBufferPathList[index]
+						newListItem = matData.gpbfData_items.add()
+						newListItem.gpbfDataString = f"{nameEntry.name},{pathEntry.name},{str(pathEntry.nameUTF16Hash)},{str(pathEntry.nameUTF8Hash)}"
 				
 				#Properties
 				

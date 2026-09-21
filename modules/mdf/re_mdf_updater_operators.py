@@ -8,7 +8,9 @@ from ..blender_utils import showMessageBox
 from .re_mdf_updater_utils import batchUpdateMDFFiles,batchUpdateMDFCollections
 
 
-def getCompendiumAssetLibraryItems():
+_compendiumAssetLibraryItemsCache = []
+def getCompendiumAssetLibraryItems(self,context):
+	global _compendiumAssetLibraryItemsCache
 	libEntryList = []
 	for lib in bpy.context.preferences.filepaths.asset_libraries:
 		if lib.name.startswith("RE Assets - "):
@@ -16,7 +18,8 @@ def getCompendiumAssetLibraryItems():
 			compendiumPath = os.path.join(bpy.path.abspath(lib.path),f"MaterialCompendium_{gameName}.json")
 			if os.path.isfile(compendiumPath):
 				libEntryList.append((compendiumPath,gameName,""))
-	return libEntryList
+	_compendiumAssetLibraryItemsCache = libEntryList#Keep a reference alive, Blender can crash if a dynamic enum's strings get garbage collected
+	return _compendiumAssetLibraryItemsCache
 
 class WM_OT_BatchMDFUpdater(Operator):
 	bl_label = "Batch MDF Updater"
@@ -27,7 +30,7 @@ class WM_OT_BatchMDFUpdater(Operator):
 	assetLib: bpy.props.EnumProperty(
 		name="Game",
 		description="Choose which game to update MDF files for. This is only supported for asset libraries that have support for this feature",
-		items=getCompendiumAssetLibraryItems()
+		items=getCompendiumAssetLibraryItems
 		)
 	
 	dirPath : bpy.props.StringProperty(
@@ -114,7 +117,7 @@ class WM_OT_BlenderMDFUpdater(Operator):
 	assetLib: bpy.props.EnumProperty(
 		name="Game",
 		description="Choose which game to update MDF files for. This is only supported for asset libraries that have support for this feature",
-		items=getCompendiumAssetLibraryItems()
+		items=getCompendiumAssetLibraryItems
 		)
 	
 	

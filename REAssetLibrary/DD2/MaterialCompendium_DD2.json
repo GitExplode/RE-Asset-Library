@@ -1,0 +1,1802 @@
+{
+    "1979130001": {
+        "name": "13_EnvEmissive_000_00",
+        "mdfPath": "vfx/mesh/gimmick/gm81_114/13_gm81_114_meteor_00.mdf2",
+        "matNameHash": 3615485559
+    },
+    "2722336366": {
+        "name": "13_EnvSimple_000_00_Scale",
+        "mdfPath": "vfx/material/standard/13_envsimple_000_00.mdf2",
+        "matNameHash": 2861909368
+    },
+    "4244185868": {
+        "name": "13_Eyeblink_000_00",
+        "mdfPath": "vfx/event/mesh/cutscene/cs0315/13_cs0315_eyeblink_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "619298174": {
+        "name": "13_FallTornado_000_00",
+        "mdfPath": "vfx/event/mesh/simple/13_falltornado_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3010115095": {
+        "name": "13_FluidSmoke_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_fluidsmoke_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1730895755": {
+        "name": "13_FluidSmoke_000_00",
+        "mdfPath": "vfx/material/standard/13_fluidsmoke_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1083634782": {
+        "name": "13_FluidSmoke_CS_000_00",
+        "mdfPath": "vfx/material/standard/13_fluidsmoke_cs_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3350555038": {
+        "name": "13_FluidSmoke_GlobalTimer_000_00",
+        "mdfPath": "vfx/material/standard/13_fluidsmoke_globaltimer_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2473934946": {
+        "name": "13_FluidSmoke_Light_000_00",
+        "mdfPath": "vfx/mesh/player/13_vortexrage_000_00.mdf2",
+        "matNameHash": 2980353954
+    },
+    "454984004": {
+        "name": "13_FluidSmoke_PixelDepthOffset_000_00",
+        "mdfPath": "vfx/material/standard/13_fluidsmoke_pixeldepthoffset_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2010469594": {
+        "name": "13_Fusible_000_00_Scale",
+        "mdfPath": "vfx/material/standard/13_fusible_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "493823075": {
+        "name": "13_Ice_100_00",
+        "mdfPath": "environment/props/sm8x/sm81/sm81_083/sm81_083_00.mdf2",
+        "matNameHash": 2909259629
+    },
+    "1084903110": {
+        "name": "13_Ice_101_00",
+        "mdfPath": "vfx/mesh/ice/13_ice_001_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3959221998": {
+        "name": "13_Liquid_translucent_000_00",
+        "mdfPath": "vfx/event/mesh/cutscene/cs0180/13_cs0180_liquid_000_00.mdf2",
+        "matNameHash": 605033821
+    },
+    "3166709998": {
+        "name": "13_Lives_000_00",
+        "mdfPath": "vfx/mesh/lives/13_cockroach_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1531487803": {
+        "name": "13_MM_cs2620_Beam_PrimitiveMaterial",
+        "mdfPath": "vfx/event/mesh/cutscene/cs2620/13_cs2620_beam_primitivematerial.mdf2",
+        "matNameHash": 2268383197
+    },
+    "2435292833": {
+        "name": "13_MM_cs2640_Liquid00_Standard",
+        "mdfPath": "vfx/event/mesh/cutscene/cs2640/s00/13_cs2640_humanbody00.mdf2",
+        "matNameHash": 963607484
+    },
+    "3446124540": {
+        "name": "13_MSV_CsCommon_Fusible00_Standard",
+        "mdfPath": "vfx/event/material/standard/13_cscommon_meshfusible00_standard_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3741155751": {
+        "name": "13_MSV_CsCommon_MeshFluid00_PMesh",
+        "mdfPath": "vfx/event/material/primitivemesh/13_cscommon_meshfluid00_pmesh_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1330578264": {
+        "name": "13_MSV_CsCommon_MeshFluid00_Standard",
+        "mdfPath": "vfx/event/material/standard/13_cscommon_meshfluid00_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "323343957": {
+        "name": "13_MSV_CsCommon_MeshFluid01_Standard",
+        "mdfPath": "vfx/event/mesh/cutscene/cs2640/s00/13_cs2640_ch255010_fusible00_common00.mdf2",
+        "matNameHash": 963607484
+    },
+    "824651782": {
+        "name": "13_MSV_CsCommon_MeshFluid02_Standard",
+        "mdfPath": "vfx/event/material/standard/13_cscommon_meshfluid02_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "4282739296": {
+        "name": "13_MSV_CsCommon_ModelFluid00_Standard",
+        "mdfPath": "vfx/event/mesh/cutscene/cs2640/s00/13_cs2640_ch259000_debris00.mdf2",
+        "matNameHash": 963607484
+    },
+    "1428499621": {
+        "name": "13_MSV_CsCommon_Particle00_PMat",
+        "mdfPath": "vfx/event/material/primitivematerial/13_cscommon_particle00_pmaterial_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "4210413160": {
+        "name": "13_MSV_CsCommon_Particle00_PSMat",
+        "mdfPath": "vfx/event/material/primitivesolidmaterialexpensive/13_cscommon_particle00_psmaterial_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1789228636": {
+        "name": "13_MSV_CsCommon_Particle01_PMat",
+        "mdfPath": "vfx/event/material/primitivematerial/13_cscommon_particle01_pmaterial_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3564490966": {
+        "name": "13_MSV_CsCommon_Particle01_PSMat",
+        "mdfPath": "vfx/event/material/primitivesolidmaterialexpensive/13_cscommon_particle01_psmaterial_oneside.mdf2",
+        "matNameHash": 2418955543
+    },
+    "4142825432": {
+        "name": "13_MSV_EmCommon_MeshFluid00_PMesh",
+        "mdfPath": "vfx/material/primitivemesh/13_emcommon_meshfluid00_pmesh_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1958207514": {
+        "name": "13_MSV_EmCommon_MeshFluid00_Standard",
+        "mdfPath": "vfx/material/standard/13_emcommon_meshfluid00_standard_twoside.mdf2",
+        "matNameHash": 963607484
+    },
+    "242296327": {
+        "name": "13_MSV_EmCommon_MeshFluid00_Transparent",
+        "mdfPath": "vfx/mesh/enemy/ch29/00/13_ch29_headtrail00.mdf2",
+        "matNameHash": 963607484
+    },
+    "1944261840": {
+        "name": "13_MSV_EmCommon_MeshFluid01_Transparent",
+        "mdfPath": "vfx/event/mesh/fusible_monster/ch255010/13_cs_ch255010_smoke00_jawupper.mdf2",
+        "matNameHash": 963607484
+    },
+    "2614260806": {
+        "name": "13_MSV_EmCommon_Particle_Color00_PMat",
+        "mdfPath": "vfx/material/primitivematerial/13_emcommon_particle_color00_pmat_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2985117314": {
+        "name": "13_MSV_EmCommon_Particle_Color01_PMat",
+        "mdfPath": "vfx/material/primitivematerial/13_emcommon_particle_color01_pmat_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1917554514": {
+        "name": "13_MSV_EmCommon_Particle_RG00_PMat",
+        "mdfPath": "vfx/material/primitivematerial/13_emcommon_particle_rg00_pmat_oneside.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2104360065": {
+        "name": "13_MSV_EmCommon_Sparks00_Standard",
+        "mdfPath": "vfx/material/standard/13_emcommon_sparks00_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "261864383": {
+        "name": "13_MSV_EmCommon_Triplanar00_PMesh",
+        "mdfPath": "vfx/material/primitivemesh/13_emcommon_triplanar00_pmesh_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "3258337899": {
+        "name": "13_MSV_ch25_Mesh00_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch25/00/13_ch25_mesh00_pmesh_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1849962061": {
+        "name": "13_MSV_ch29_Eyes01_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch29/05/13_ch29_eyes01_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "2627905025": {
+        "name": "13_MSV_ch29_Smoke02_Transparent",
+        "mdfPath": "vfx/mesh/enemy/ch29/00/13_ch29_smoke02.mdf2",
+        "matNameHash": 963607484
+    },
+    "2846607530": {
+        "name": "13_MSV_ch57_001_Liquid00_Standard",
+        "mdfPath": "vfx/event/material/standard/13_cscommon_meshfluid03_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "123807706": {
+        "name": "13_MSV_ch57_001_Liquid01_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch57/02/13_ch57_001_acid00.mdf2",
+        "matNameHash": 963607484
+    },
+    "3067444873": {
+        "name": "13_MSV_ch57_001_Liquid02_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch57/02/13_ch57_001_liquid00_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "2885554992": {
+        "name": "13_MSV_ch57_001_Liquid03_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch57/02/13_ch57_001_liquid01_standard_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "3958931234": {
+        "name": "13_MSV_ch57_001_Tumor00_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch57/04/13_ch57_001_tumor00.mdf2",
+        "matNameHash": 584939693
+    },
+    "3023097051": {
+        "name": "13_MSV_ch57_FireBreath00_Transparent",
+        "mdfPath": "vfx/mesh/enemy/ch57/01/13_ch57_firebreath00_forward.mdf2",
+        "matNameHash": 963607484
+    },
+    "2387427335": {
+        "name": "13_MSV_ch57_MeshBillboard00_PMesh",
+        "mdfPath": "vfx/material/primitivemesh/13_emcommon_meshfluid02_pmesh_twoside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1680262882": {
+        "name": "13_MSV_ch57_MeshSmoke01_PMesh",
+        "mdfPath": "vfx/material/primitivemesh/13_emcommon_meshfluid01_pmesh_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1330374266": {
+        "name": "13_MSV_ch57_WaterDrop00_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch57/02/13_ch57_waterdrop00_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "3339728552": {
+        "name": "13_MSV_ch58_000_Light00_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch58/07/13_ch58_000_light00_pmesh_twoside.mdf2",
+        "matNameHash": 963607484
+    },
+    "203854319": {
+        "name": "13_MSV_ch58_000_Liquid00_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch58/04/13_ch58_000_blood00.mdf2",
+        "matNameHash": 963607484
+    },
+    "3512156548": {
+        "name": "13_MSV_ch58_000_MagicSpell00_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch58/05/13_ch58_000_magicspell00_twoside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1384752088": {
+        "name": "13_MSV_ch58_000_MagicSpell01_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch58/05/13_ch58_000_magicspell01_oneside.mdf2",
+        "matNameHash": 963607484
+    },
+    "1132475680": {
+        "name": "13_MSV_ch58_Fire00_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch58/00/13_ch58_fire00_pmesh_oneside.mdf2",
+        "matNameHash": 2268383197
+    },
+    "4140814389": {
+        "name": "13_MSV_ch58_Fire01_PMesh",
+        "mdfPath": "vfx/mesh/enemy/ch58/00/13_ch58_fire01_pmesh_oneside.mdf2",
+        "matNameHash": 2268383197
+    },
+    "2654689345": {
+        "name": "13_MSV_ch58_FireBreath00_Transparent",
+        "mdfPath": "vfx/mesh/enemy/ch58/00/13_ch58_000_firebreath00.mdf2",
+        "matNameHash": 963607484
+    },
+    "2378020233": {
+        "name": "13_MS_ch26_003_DummyJoint00_Standard",
+        "mdfPath": "vfx/mesh/enemy/ch26/01/13_ch26_003_dummyjoint00.mdf2",
+        "matNameHash": 2180083513
+    },
+    "3701855188": {
+        "name": "13_MagicCircle_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_magiccircle_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "783814831": {
+        "name": "13_MeshBillboard_Dissolve_000_00_Scale",
+        "mdfPath": "vfx/mesh/debris/13_stone_010_00.mdf2",
+        "matNameHash": 3965515587
+    },
+    "3077158506": {
+        "name": "13_MeshScroll_Dissolve_000_01",
+        "mdfPath": "vfx/material/standard/13_liquid_001_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2235250461": {
+        "name": "13_Mesh_Dissolve_000_00",
+        "mdfPath": "vfx/event/mesh/feather/13_feather_100_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2142426518": {
+        "name": "13_Mesh_Dissolve_000_00_Scale",
+        "mdfPath": "vfx/mesh/feather/13_feather_000_00.mdf2",
+        "matNameHash": 2236342247
+    },
+    "906892758": {
+        "name": "13_Post_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_post_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "484104513": {
+        "name": "13_Post_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_post_000_00.mdf2",
+        "matNameHash": 2268383197
+    },
+    "2841712071": {
+        "name": "13_PrimMat_SSE_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_primmat_sse_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "338468400": {
+        "name": "13_PrimMat_Simple_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_primmat_simple_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3359106106": {
+        "name": "13_PrimMesh_Dissolve_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_dissolve_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1463927877": {
+        "name": "13_PrimMesh_MeshBillboard_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_meshbillboard_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "4064876777": {
+        "name": "13_PrimMesh_SSEWipe_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_ssewipe_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "819197995": {
+        "name": "13_PrimMesh_SSE_000_01",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_sse_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2103761901": {
+        "name": "13_PrimMesh_Simple_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_simple_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3583136660": {
+        "name": "13_PrimMesh_Simple_000_01",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_simple_000_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1137399537": {
+        "name": "13_PrimMesh_Simplification_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_simplification_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "4229235252": {
+        "name": "13_PrimMesh_Simplification_000_01",
+        "mdfPath": "vfx/material/primitivemesh/13_primmesh_simplification_000_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2385903623": {
+        "name": "13_RimVFX_000_00",
+        "mdfPath": "vfx/mesh/gimmick/gm04_013/13_rimvfx_000_00.mdf2",
+        "matNameHash": 3252299716
+    },
+    "1581283500": {
+        "name": "13_SSE_GradAnim_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_magic_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3152013183": {
+        "name": "13_Seagull_VTA_000_00",
+        "mdfPath": "vfx/event/mesh/lives/13_seagull_100_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1687781656": {
+        "name": "13_StrainRibbonDeform_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_strainribbondeform_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3472815732": {
+        "name": "13_TextureBlend2_ENV_000_00",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_447/sm02_447_00.mdf2",
+        "matNameHash": 963607484
+    },
+    "952103283": {
+        "name": "13_TextureBlend2_VFX_000_00",
+        "mdfPath": "vfx/event/mesh/debris/13_wood_003_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2991912559": {
+        "name": "13_TextureBlend2_VFX_003_00",
+        "mdfPath": "vfx/mesh/player/ch06/13_meteor_000_01.mdf2",
+        "matNameHash": 1320488855
+    },
+    "1272419989": {
+        "name": "13_UnderWorldCloud_Variarion_000_00",
+        "mdfPath": "environment/props/sm8x/sm81/sm81_116/sm81_116_00.mdf2",
+        "matNameHash": 963607484
+    },
+    "3084682187": {
+        "name": "13_UnderWorldCloud_Variarion_000_01",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_252/sm02_252_00.mdf2",
+        "matNameHash": 963607484
+    },
+    "2970055313": {
+        "name": "13_VFX_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_vfx_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "576724989": {
+        "name": "13_VFX_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_vfx_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3597275882": {
+        "name": "13_VFX_000_00",
+        "mdfPath": "vfx/material/standard/13_vfx_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2623710576": {
+        "name": "13_VFX_CustomDecal_000_00",
+        "mdfPath": "vfx/marksystem/customdecal/distortion/13_areadecal_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3481687748": {
+        "name": "13_VFX_CustomDecal_000_01",
+        "mdfPath": "vfx/marksystem/customdecal/distortion/13_argentrecoverdecal_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "5798138": {
+        "name": "13_VFX_Distortion_000_00",
+        "mdfPath": "vfx/material/primitivematerial/13_vfx_distortion_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "877833650": {
+        "name": "13_VFX_Distortion_000_00",
+        "mdfPath": "vfx/material/primitivemesh/13_vfx_distortion_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3496542386": {
+        "name": "13_VFX_Distortion_200_00",
+        "mdfPath": "vfx/material/primitivemesh/13_vfx_distortion_200_00.mdf2",
+        "matNameHash": 2268383197
+    },
+    "2357716106": {
+        "name": "13_VFX_SimpleDistortion_000_00",
+        "mdfPath": "vfx/mesh/liquid/13_liquid_distortion_000_00.mdf2",
+        "matNameHash": 3847837079
+    },
+    "1286348184": {
+        "name": "13_Water_010_00",
+        "mdfPath": "vfx/mesh/liquid/13_water_010_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "578238303": {
+        "name": "13_Water_Distortion_000_00",
+        "mdfPath": "vfx/mesh/liquid/water/13_distortion_000_00.mdf2",
+        "matNameHash": 1786488340
+    },
+    "651707941": {
+        "name": "13_Winedrop_000_00",
+        "mdfPath": "vfx/event/mesh/cutscene/cs0710/13_cs0710_winedrop_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2775680024": {
+        "name": "13_ch24_000_02_00",
+        "mdfPath": "vfx/mesh/enemy/ch24/00/13_ch24_000_02.mdf2",
+        "matNameHash": 2268383197
+    },
+    "1287492725": {
+        "name": "13_ch24_000_02_01",
+        "mdfPath": "vfx/mesh/enemy/ch24/00/13_ch24_000_02_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "122901971": {
+        "name": "13_ch59_000_00",
+        "mdfPath": "vfx/mesh/enemy/ch59/13_ch59_000_00.mdf2",
+        "matNameHash": 2268383197
+    },
+    "3862190414": {
+        "name": "13_ch59_000_01",
+        "mdfPath": "vfx/mesh/enemy/ch59/13_ch59_000_01.mdf2",
+        "matNameHash": 2268383197
+    },
+    "98075218": {
+        "name": "13_cs1060_Character_Weapon",
+        "mdfPath": "vfx/event/mesh/cutscene/cs1060/13_cs1060_it09_000_00.mdf2",
+        "matNameHash": 3946464821
+    },
+    "2924371921": {
+        "name": "13_gm04_013_RimTrans_00",
+        "mdfPath": "vfx/mesh/gimmick/gm04_013/13_gm04_013_rimtrans_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3796946342": {
+        "name": "13_gm04_013_RimTrans_01",
+        "mdfPath": "vfx/mesh/gimmick/gm04_013/13_gm04_013_rimtrans_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1527751899": {
+        "name": "Character_Alpha",
+        "mdfPath": "character/_kit/_equipment/facewear/057/facewear_057_m.mdf2",
+        "matNameHash": 4005688687
+    },
+    "3133627657": {
+        "name": "Character_Decal",
+        "mdfPath": "character/_kit/_equipment/helm/630/helm_630_m.mdf2",
+        "matNameHash": 3607958047
+    },
+    "3516825757": {
+        "name": "Character_Default",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_beastman.mdf2",
+        "matNameHash": 1794365915
+    },
+    "2532201924": {
+        "name": "Character_Default",
+        "mdfPath": "character/_kit/head/head_801_f/head_801_f.mdf2",
+        "matNameHash": 1794365915
+    },
+    "3508829829": {
+        "name": "Character_Detail",
+        "mdfPath": "character/_kit/_equipment/backpack/backpack_500/backpack_500_m.mdf2",
+        "matNameHash": 633349019
+    },
+    "2522928679": {
+        "name": "Character_Detail_MipBiasOff",
+        "mdfPath": "character/_kit/_equipment/tops/800/tops_800_bd_m.mdf2",
+        "matNameHash": 3209664087
+    },
+    "675467164": {
+        "name": "Character_Detail_Preview",
+        "mdfPath": "character/_kit/_equipment/underwear/500/underwear_500_f.mdf2",
+        "matNameHash": 1549449505
+    },
+    "2458698536": {
+        "name": "Character_Detail_Skeleton",
+        "mdfPath": "character/ch/ch26_000/eq26_000_01/eq26_000_01_0.mdf2",
+        "matNameHash": 4272940691
+    },
+    "2125400940": {
+        "name": "Character_Detail_UI",
+        "mdfPath": "gui/model/ui06/00/00/ui06_00_00.mdf2",
+        "matNameHash": 191552782
+    },
+    "358115511": {
+        "name": "Character_EnemyLarge",
+        "mdfPath": "appsystem/ch/ch252/userdata/areamaterialdata/materials/ch52_000_a.mdf2",
+        "matNameHash": 4187422871
+    },
+    "1634586423": {
+        "name": "Character_EnemyLarge_ALBDArray",
+        "mdfPath": "character/ch/ch57_000/ch57_000.mdf2",
+        "matNameHash": 1936116602
+    },
+    "4203414604": {
+        "name": "Character_EnemyLarge_ALBDArray_HeartBeat",
+        "mdfPath": "character/ch/ch57_000/ch57_000.mdf2",
+        "matNameHash": 51946769
+    },
+    "1043888700": {
+        "name": "Character_EnemyLarge_Detail",
+        "mdfPath": "character/ch/ch51_000/ch51_000.mdf2",
+        "matNameHash": 1070927874
+    },
+    "3045233827": {
+        "name": "Character_EnemyLarge_Detail_ShadowAlphaTest",
+        "mdfPath": "character/ch/ch57_001/ch57_001.mdf2",
+        "matNameHash": 3606768171
+    },
+    "2680755336": {
+        "name": "Character_EnemyLarge_Detail_UniquePattern",
+        "mdfPath": "character/ch/ch50_000/ch50_000.mdf2",
+        "matNameHash": 2414247754
+    },
+    "3187433077": {
+        "name": "Character_EnemyLarge_Dragon",
+        "mdfPath": "character/ch/ch58_000/ch58_000.mdf2",
+        "matNameHash": 3732700115
+    },
+    "1828317738": {
+        "name": "Character_EnemyLarge_DragonHeart",
+        "mdfPath": "character/ch/ch57_000/ch57_000.mdf2",
+        "matNameHash": 2988870421
+    },
+    "2838536021": {
+        "name": "Character_EnemyLarge_DragonWing",
+        "mdfPath": "character/ch/ch58_000/ch58_000.mdf2",
+        "matNameHash": 3576614364
+    },
+    "2611744666": {
+        "name": "Character_EnemyLarge_Dragon_Detail",
+        "mdfPath": "character/ch/ch58_000/ch58_000.mdf2",
+        "matNameHash": 4070607925
+    },
+    "56190273": {
+        "name": "Character_EnemyLarge_DrakeWing",
+        "mdfPath": "character/ch/ch57_000/ch57_000.mdf2",
+        "matNameHash": 1992505174
+    },
+    "1545930404": {
+        "name": "Character_EnemyLarge_Feather",
+        "mdfPath": "character/ch/ch53_000/ch53_000.mdf2",
+        "matNameHash": 1523970564
+    },
+    "4002554580": {
+        "name": "Character_EnemyLarge_Golem",
+        "mdfPath": "appsystem/ch/ch252/userdata/areamaterialdata/materials/ch52_000_a.mdf2",
+        "matNameHash": 1125530405
+    },
+    "3902830471": {
+        "name": "Character_EnemyLarge_Hair",
+        "mdfPath": "character/ch/ch50_000/ch50_000.mdf2",
+        "matNameHash": 2662365358
+    },
+    "2139312849": {
+        "name": "Character_EnemyLarge_Hair_Emissive",
+        "mdfPath": "character/ch/ch54_001/ch54_001.mdf2",
+        "matNameHash": 1714892224
+    },
+    "3110476372": {
+        "name": "Character_EnemyLarge_Hair_Emissive_WindAnim",
+        "mdfPath": "character/ch/ch54_001/ch54_001.mdf2",
+        "matNameHash": 2487854335
+    },
+    "3800872682": {
+        "name": "Character_EnemyLarge_Hair_MaskColorFade",
+        "mdfPath": "character/ch/ch60_000/ch60_000.mdf2",
+        "matNameHash": 1699238352
+    },
+    "3615080451": {
+        "name": "Character_EnemyLarge_MaskColorFade",
+        "mdfPath": "character/ch/ch60_000/ch60_000.mdf2",
+        "matNameHash": 54019160
+    },
+    "937413991": {
+        "name": "Character_EnemyLarge_SenryuTumor",
+        "mdfPath": "character/ch/ch57_001/ch57_001.mdf2",
+        "matNameHash": 2969582940
+    },
+    "894561127": {
+        "name": "Character_EnemyLarge_TexTrans_Detail",
+        "mdfPath": "character/ch/ch51_000/ch51_000.mdf2",
+        "matNameHash": 251442192
+    },
+    "859068617": {
+        "name": "Character_EnemyLarge_TexTrans_Detail_UniquePattern",
+        "mdfPath": "character/ch/ch51_001/ch51_001.mdf2",
+        "matNameHash": 1787571426
+    },
+    "4129979998": {
+        "name": "Character_EnemyLarge_TexTrans_Facial",
+        "mdfPath": "character/ch/ch53_002/ch53_002.mdf2",
+        "matNameHash": 3024117870
+    },
+    "2046257135": {
+        "name": "Character_Enemy_Default",
+        "mdfPath": "character/ch/ch20_000/ch20_000.mdf2",
+        "matNameHash": 777705579
+    },
+    "1027858545": {
+        "name": "Character_Enemy_Default_Fusible",
+        "mdfPath": "character/ch/ch20_000/wp20_000_02/wp20_000_02_1.mdf2",
+        "matNameHash": 437396921
+    },
+    "278723677": {
+        "name": "Character_Enemy_Default_NoiseFade",
+        "mdfPath": "character/ch/ch26_000/ch26_000.mdf2",
+        "matNameHash": 2086287030
+    },
+    "4269068055": {
+        "name": "Character_Enemy_Durahan_Hair",
+        "mdfPath": "character/ch/ch29_000/ch29_000.mdf2",
+        "matNameHash": 3772948612
+    },
+    "2523426457": {
+        "name": "Character_Enemy_EmissiveAnim",
+        "mdfPath": "character/ch/ch21_000/wp21_000_00/wp21_000_00_4.mdf2",
+        "matNameHash": 4011476657
+    },
+    "3384005184": {
+        "name": "Character_Enemy_EmissiveAnim_RDL",
+        "mdfPath": "character/ch/ch21_504/ch21_504.mdf2",
+        "matNameHash": 3944232031
+    },
+    "636694315": {
+        "name": "Character_Enemy_Eye",
+        "mdfPath": "appsystem/ch/ch221/userdata/areamaterialdata/materials/ch21_002_a.mdf2",
+        "matNameHash": 817199370
+    },
+    "279619026": {
+        "name": "Character_Enemy_Eye_Fusible",
+        "mdfPath": "character/ch/ch20_004/ch20_004.mdf2",
+        "matNameHash": 156888087
+    },
+    "269884265": {
+        "name": "Character_Enemy_FatUndead",
+        "mdfPath": "character/ch/ch28_000/body/body_910_m/body_910_m.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3788300447": {
+        "name": "Character_Enemy_Feather",
+        "mdfPath": "character/ch/ch20_003/helm/03/eq20_003_03_hl_0.mdf2",
+        "matNameHash": 2449086757
+    },
+    "3688389466": {
+        "name": "Character_Enemy_Feather_Sphinx",
+        "mdfPath": "character/ch/ch53_001/ch53_001.mdf2",
+        "matNameHash": 3393581594
+    },
+    "1059901483": {
+        "name": "Character_Enemy_Hair",
+        "mdfPath": "character/ch/ch20_003/helm/06/eq20_003_06_hl_0.mdf2",
+        "matNameHash": 2020844996
+    },
+    "607024574": {
+        "name": "Character_Enemy_HeadSnake",
+        "mdfPath": "character/ch/ch55_004/ch55_004.mdf2",
+        "matNameHash": 195861905
+    },
+    "1303556803": {
+        "name": "Character_Enemy_HeadSnake_Anim",
+        "mdfPath": "character/ch/ch55_001/ch55_001.mdf2",
+        "matNameHash": 195861905
+    },
+    "4287716677": {
+        "name": "Character_Enemy_HugeDragon",
+        "mdfPath": "character/ch/ch53_010/ch53_010.mdf2",
+        "matNameHash": 3528378480
+    },
+    "3151258723": {
+        "name": "Character_Enemy_HugeDragon_Tentacle",
+        "mdfPath": "character/ch/ch53_010/ch53_010.mdf2",
+        "matNameHash": 2330313325
+    },
+    "1642340297": {
+        "name": "Character_Enemy_HugeDragon_WeakPoint",
+        "mdfPath": "character/ch/ch53_010/ch53_010.mdf2",
+        "matNameHash": 3943531712
+    },
+    "1281559025": {
+        "name": "Character_Enemy_HugeDragon_Wing",
+        "mdfPath": "character/ch/ch53_010/ch53_010.mdf2",
+        "matNameHash": 866893625
+    },
+    "373933787": {
+        "name": "Character_Enemy_Lich",
+        "mdfPath": "character/ch/ch29_000/ch29_000.mdf2",
+        "matNameHash": 4255001205
+    },
+    "2157584577": {
+        "name": "Character_Enemy_Lich_Cloth",
+        "mdfPath": "character/ch/ch27_000/ch27_000.mdf2",
+        "matNameHash": 572491239
+    },
+    "2167699051": {
+        "name": "Character_Enemy_Lich_Cloth_LocalVertexShader",
+        "mdfPath": "character/ch/ch27_001/ch27_001.mdf2",
+        "matNameHash": 2563770414
+    },
+    "2966575177": {
+        "name": "Character_Enemy_Lich_Cloth_SequenceAnim",
+        "mdfPath": "character/ch/ch27_000/ch27_000.mdf2",
+        "matNameHash": 1650138398
+    },
+    "2954425317": {
+        "name": "Character_Enemy_Lich_Detail",
+        "mdfPath": "character/ch/ch27_000/ch27_000.mdf2",
+        "matNameHash": 1476721069
+    },
+    "2892733574": {
+        "name": "Character_Enemy_Lich_Eye",
+        "mdfPath": "character/ch/ch27_000/ch27_000.mdf2",
+        "matNameHash": 1940856368
+    },
+    "1291276085": {
+        "name": "Character_Enemy_Light",
+        "mdfPath": "character/ch/ch99_200/ch99_200_a.mdf2",
+        "matNameHash": 3591636782
+    },
+    "2073952016": {
+        "name": "Character_Enemy_Mantle",
+        "mdfPath": "character/ch/ch29_001/ch29_001.mdf2",
+        "matNameHash": 3240662297
+    },
+    "2870658525": {
+        "name": "Character_Enemy_Nex",
+        "mdfPath": "character/ch/ch58_001/ch58_001.mdf2",
+        "matNameHash": 1616063753
+    },
+    "3683784841": {
+        "name": "Character_Enemy_ParallaxAlbedoBlend",
+        "mdfPath": "character/ch/ch99_230/ch99_230_a.mdf2",
+        "matNameHash": 3591636782
+    },
+    "1468552158": {
+        "name": "Character_Enemy_PoisonLizard",
+        "mdfPath": "character/ch/ch21_000/wp21_000_00/wp21_000_00_1.mdf2",
+        "matNameHash": 4011476657
+    },
+    "1746729985": {
+        "name": "Character_Enemy_PoisonLizard_RDL",
+        "mdfPath": "character/ch/ch21_501/ch21_501.mdf2",
+        "matNameHash": 2779680753
+    },
+    "1176248771": {
+        "name": "Character_Enemy_RockLizard",
+        "mdfPath": "appsystem/ch/ch221/userdata/areamaterialdata/materials/ch21_002_a.mdf2",
+        "matNameHash": 3276240996
+    },
+    "4089116702": {
+        "name": "Character_Enemy_RockLizard_EmissiveAnim",
+        "mdfPath": "character/ch/ch21_003/ch21_003.mdf2",
+        "matNameHash": 3215994485
+    },
+    "1867445231": {
+        "name": "Character_Enemy_Shake",
+        "mdfPath": "character/ch/ch21_000/ch21_000.mdf2",
+        "matNameHash": 2562626558
+    },
+    "609525617": {
+        "name": "Character_Enemy_Slime",
+        "mdfPath": "character/ch/ch24_000/ch24_000.mdf2",
+        "matNameHash": 3951655154
+    },
+    "2615695357": {
+        "name": "Character_Enemy_Talos",
+        "mdfPath": "character/ch/ch59_000/ch59_000.mdf2",
+        "matNameHash": 2503474806
+    },
+    "2396206448": {
+        "name": "Character_Enemy_Talos_Gem",
+        "mdfPath": "character/ch/ch59_000/ch59_000.mdf2",
+        "matNameHash": 4199004682
+    },
+    "2950437342": {
+        "name": "Character_Enemy_Talos_Nex",
+        "mdfPath": "character/ch/ch58_001/ch58_001.mdf2",
+        "matNameHash": 1856050967
+    },
+    "2553520004": {
+        "name": "Character_Enemy_Talos_NexWing",
+        "mdfPath": "character/ch/ch58_001/ch58_001.mdf2",
+        "matNameHash": 3538110822
+    },
+    "4190423124": {
+        "name": "Character_Enemy_TexTrans",
+        "mdfPath": "character/ch/ch21_000/ch21_000.mdf2",
+        "matNameHash": 2656205164
+    },
+    "2397043137": {
+        "name": "Character_Eye",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_beastman.mdf2",
+        "matNameHash": 22864041
+    },
+    "3912281285": {
+        "name": "Character_Eyebrow",
+        "mdfPath": "character/_kit/eyebrows/eyebrows_000/eyebrows_000.mdf2",
+        "matNameHash": 407302422
+    },
+    "1536111279": {
+        "name": "Character_Eyelash",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_beastman.mdf2",
+        "matNameHash": 1800818664
+    },
+    "1321221029": {
+        "name": "Character_Hair",
+        "mdfPath": "character/_kit/_equipment/helm/056/helm_056_f.mdf2",
+        "matNameHash": 147609699
+    },
+    "896717737": {
+        "name": "Character_HairCap",
+        "mdfPath": "character/_kit/_equipment/helm/056/helm_056_f.mdf2",
+        "matNameHash": 83482132
+    },
+    "426392734": {
+        "name": "Character_Illusion",
+        "mdfPath": "vfx/mesh/player/ch09/13_drakeillusion_000_00.mdf2",
+        "matNameHash": 4226796758
+    },
+    "599768390": {
+        "name": "Character_Item",
+        "mdfPath": "character/it/it02/002/it02_002_00.mdf2",
+        "matNameHash": 3347793024
+    },
+    "327190261": {
+        "name": "Character_Item_Gem",
+        "mdfPath": "character/_kit/hair/hair_804/hair_804.mdf2",
+        "matNameHash": 3315297949
+    },
+    "3665929499": {
+        "name": "Character_Item_Gem_EmissiveAnim",
+        "mdfPath": "character/it/it02/003/it02_003_00.mdf2",
+        "matNameHash": 3628075571
+    },
+    "1377509806": {
+        "name": "Character_Nail",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/body_runtime_beastman.mdf2",
+        "matNameHash": 921964968
+    },
+    "3830315504": {
+        "name": "Character_Pattern",
+        "mdfPath": "character/_kit/_equipment/helm/001/helm_001_m.mdf2",
+        "matNameHash": 532432113
+    },
+    "210618207": {
+        "name": "Character_Pattern_Fusible",
+        "mdfPath": "character/ch/ch20_004/pants/02/eq20_004_02_lg_0.mdf2",
+        "matNameHash": 3514146011
+    },
+    "4134798107": {
+        "name": "Character_Pattern_ShellFur",
+        "mdfPath": "character/_kit/_equipment/mantle/047/mantle_047_f.mdf2",
+        "matNameHash": 3170941118
+    },
+    "214694135": {
+        "name": "Character_Pattern_Skeleton",
+        "mdfPath": "character/ch/ch26_000/eq26_000_03/eq26_000_03_1.mdf2",
+        "matNameHash": 2677093618
+    },
+    "3744713803": {
+        "name": "Character_PawnDragon",
+        "mdfPath": "character/ch/ch57_002/ch57_002.mdf2",
+        "matNameHash": 412634327
+    },
+    "2835279292": {
+        "name": "Character_Recolor",
+        "mdfPath": "character/_kit/_equipment/backpack/backpack_500/backpack_500_m_00.mdf2",
+        "matNameHash": 4014276198
+    },
+    "527095458": {
+        "name": "Character_Skin_Body_Bake",
+        "mdfPath": "character/_kit/body/body_001_f/body_001_f_bake.mdf2",
+        "matNameHash": 3591636782
+    },
+    "4139768660": {
+        "name": "Character_Skin_Body_BeastMan_Ingame",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/body_runtime_beastman.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3722178164": {
+        "name": "Character_Skin_Body_BeastMan_Ingame_PreBaked",
+        "mdfPath": "appsystem/charaedit/ch000/prebake/body_prebake_beastman.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3941521672": {
+        "name": "Character_Skin_Body_Beastman_Bake",
+        "mdfPath": "character/_kit/body/body_820_f/body_820_f_bake.mdf2",
+        "matNameHash": 3591636782
+    },
+    "1573841109": {
+        "name": "Character_Skin_Body_Beastman_Preview",
+        "mdfPath": "character/_kit/body/body_800_f/body_800_f.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3262947151": {
+        "name": "Character_Skin_Body_Ingame",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/body_runtime_human.mdf2",
+        "matNameHash": 3591636782
+    },
+    "1015243691": {
+        "name": "Character_Skin_Body_Ingame_PreBaked",
+        "mdfPath": "appsystem/charaedit/ch000/prebake/body_prebake_human.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3961829604": {
+        "name": "Character_Skin_Body_Preview",
+        "mdfPath": "character/_kit/body/body_000_f/body_000_f_mannequin.mdf2",
+        "matNameHash": 3591636782
+    },
+    "1395656790": {
+        "name": "Character_Skin_Hand_Bake",
+        "mdfPath": "character/_kit/body/body_001_f/body_001_f_bake.mdf2",
+        "matNameHash": 3649898059
+    },
+    "106783250": {
+        "name": "Character_Skin_Hand_Beastman_Bake",
+        "mdfPath": "character/_kit/body/body_820_f/body_820_f_bake.mdf2",
+        "matNameHash": 3649898059
+    },
+    "3176308233": {
+        "name": "Character_Skin_Hand_Beastman_Preview",
+        "mdfPath": "character/_kit/body/body_800_f/body_800_f.mdf2",
+        "matNameHash": 3649898059
+    },
+    "4113913537": {
+        "name": "Character_Skin_Hand_Preview",
+        "mdfPath": "character/_kit/body/body_000_f/body_000_f_mannequin.mdf2",
+        "matNameHash": 3649898059
+    },
+    "1106302935": {
+        "name": "Character_Skin_Head_Bake",
+        "mdfPath": "character/_kit/head/head_001_f/head_001_f_bake.mdf2",
+        "matNameHash": 1649301498
+    },
+    "2987111592": {
+        "name": "Character_Skin_Head_BeastMan_Ingame",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_beastman.mdf2",
+        "matNameHash": 1649301498
+    },
+    "3442993533": {
+        "name": "Character_Skin_Head_BeastMan_Ingame_PreBaked",
+        "mdfPath": "appsystem/charaedit/ch000/prebake/head_prebake_822_m.mdf2",
+        "matNameHash": 1649301498
+    },
+    "1511669968": {
+        "name": "Character_Skin_Head_Beastman_Bake",
+        "mdfPath": "character/_kit/head/head_801_f/head_801_f_bake.mdf2",
+        "matNameHash": 1649301498
+    },
+    "2954102980": {
+        "name": "Character_Skin_Head_Beastman_Preview",
+        "mdfPath": "character/_kit/head/head_801_f/head_801_f.mdf2",
+        "matNameHash": 1649301498
+    },
+    "1002734738": {
+        "name": "Character_Skin_Head_Ingame",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_human.mdf2",
+        "matNameHash": 1649301498
+    },
+    "2354087162": {
+        "name": "Character_Skin_Head_Ingame_PreBaked",
+        "mdfPath": "appsystem/charaedit/ch000/prebake/head_prebake_human.mdf2",
+        "matNameHash": 1649301498
+    },
+    "154424854": {
+        "name": "Character_Skin_Head_Preview",
+        "mdfPath": "character/_kit/head/head_000_f/head_000_f_mannequin.mdf2",
+        "matNameHash": 1649301498
+    },
+    "1557848606": {
+        "name": "Character_Stitch",
+        "mdfPath": "character/_kit/_equipment/helm/001/helm_001_m.mdf2",
+        "matNameHash": 3685753711
+    },
+    "2696549074": {
+        "name": "Character_Teeth",
+        "mdfPath": "appsystem/charaedit/ch000/material/runtime/head_runtime_beastman.mdf2",
+        "matNameHash": 1389225984
+    },
+    "2090634909": {
+        "name": "Character_TransparentReflective",
+        "mdfPath": "character/_kit/_equipment/facewear/022/facewear_022_m.mdf2",
+        "matNameHash": 1492164305
+    },
+    "1788900053": {
+        "name": "Character_Weapon",
+        "mdfPath": "character/_kit/_equipment/backpack/backpack_500/backpack_500_m.mdf2",
+        "matNameHash": 368519299
+    },
+    "2024418892": {
+        "name": "Character_Weapon_Detail",
+        "mdfPath": "character/wp/wp00/000/wp00_000.mdf2",
+        "matNameHash": 4042647955
+    },
+    "1379635580": {
+        "name": "Character_Weapon_Gem",
+        "mdfPath": "character/_kit/_equipment/helm/237/helm_237_m_00.mdf2",
+        "matNameHash": 2204665866
+    },
+    "1548665429": {
+        "name": "Character_Weapon_Gem_Skeleton",
+        "mdfPath": "character/ch/ch26_000/wp26_000_04/wp26_000_04_0.mdf2",
+        "matNameHash": 911979820
+    },
+    "2040203661": {
+        "name": "Character_Weapon_Skeleton",
+        "mdfPath": "character/ch/ch26_000/wp26_000_00/wp26_000_00_0.mdf2",
+        "matNameHash": 4144265119
+    },
+    "1578503223": {
+        "name": "CustomMotionBlur_000_00",
+        "mdfPath": "vfx/system/custommotionblur/custommotionblur_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3501203958": {
+        "name": "DefaultPrimitiveMesh_pbr",
+        "mdfPath": "systems/effect/defaultprimitivemesh_pbr.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3465940277": {
+        "name": "Env_2Layer_VertexColorBlend",
+        "mdfPath": "appdata/contents/twn01_01/env_5959/sm64_082_01_forvertexcolor.mdf2",
+        "matNameHash": 2553046022
+    },
+    "3587469161": {
+        "name": "Env_AlphaTest",
+        "mdfPath": "appdata/field/env_1381/newsplinemesh/cc6443b0bc27d61877b14075f7516a52.mdf2",
+        "matNameHash": 2499247894
+    },
+    "83623183": {
+        "name": "Env_AlphaTest_AA",
+        "mdfPath": "environment/props/sm5x/sm52/sm52_069/sm52_069_00_2.mdf2",
+        "matNameHash": 773664732
+    },
+    "751897700": {
+        "name": "Env_AlphaTest_Light",
+        "mdfPath": "environment/props/sm0x/sm00/sm00_992_b/sm00_992_b_00.mdf2",
+        "matNameHash": 883770994
+    },
+    "1427960020": {
+        "name": "Env_AlphaTest_Light_Pattern",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_204/sm50_204_00.mdf2",
+        "matNameHash": 2530886545
+    },
+    "733867972": {
+        "name": "Env_AlphaTest_Light_Wet",
+        "mdfPath": "environment/props/sm8x/sm80/sm80_008/sm80_008_00.mdf2",
+        "matNameHash": 3607281675
+    },
+    "2044841930": {
+        "name": "Env_AlphaTest_Pattern",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_470/sm51_470_00.mdf2",
+        "matNameHash": 2305957482
+    },
+    "4229941590": {
+        "name": "Env_AlphaTest_Wet",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_264/sm51_264_00.mdf2",
+        "matNameHash": 3136773220
+    },
+    "3397174552": {
+        "name": "Env_ColorVariation",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_424/sm50_424_00.mdf2",
+        "matNameHash": 4088558450
+    },
+    "313035733": {
+        "name": "Env_Decal",
+        "mdfPath": "appdata/splinematerials/210ec72112c481735b5add9357311b9a.mdf2",
+        "matNameHash": 4239049591
+    },
+    "3319865168": {
+        "name": "Env_Decal",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_422/sm50_422_00.mdf2",
+        "matNameHash": 209706227
+    },
+    "466965047": {
+        "name": "Env_Default",
+        "mdfPath": "appdata/contents/twn01_03/env_6342/sm62_487_00_forvertexcolor.mdf2",
+        "matNameHash": 1631565787
+    },
+    "4225500074": {
+        "name": "Env_Default_AA",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_736/sm51_736_00.mdf2",
+        "matNameHash": 2597883645
+    },
+    "3781277240": {
+        "name": "Env_Default_Common",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_067/sm10_067_00.mdf2",
+        "matNameHash": 2281255178
+    },
+    "4117134710": {
+        "name": "Env_Default_Common_Dirt",
+        "mdfPath": "appdata/field/env_1628/newroad/d08526e44d345c4b1297c4e4297d69c6.mdf2",
+        "matNameHash": 4211968858
+    },
+    "3793533546": {
+        "name": "Env_Default_Dirt",
+        "mdfPath": "environment/props/sm1x/sm14/sm14_030/sm14_030_00.mdf2",
+        "matNameHash": 2664138166
+    },
+    "2180764207": {
+        "name": "Env_Default_Flutter",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_110/sm51_110_00.mdf2",
+        "matNameHash": 3131935025
+    },
+    "3800636969": {
+        "name": "Env_Default_Flutter_Pattern",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_137/sm51_137_00.mdf2",
+        "matNameHash": 2280244655
+    },
+    "1384514350": {
+        "name": "Env_Default_Flutter_Pattern_Wet",
+        "mdfPath": "environment/props/sm5x/sm52/sm52_194/sm52_194_00.mdf2",
+        "matNameHash": 1329211076
+    },
+    "3668062749": {
+        "name": "Env_Default_Interactive",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_036/sm50_036_01.mdf2",
+        "matNameHash": 1705592691
+    },
+    "176409639": {
+        "name": "Env_Default_Interactive_Wet",
+        "mdfPath": "environment/props/sm8x/sm82/sm82_078/sm82_078_00.mdf2",
+        "matNameHash": 1565085210
+    },
+    "2112400521": {
+        "name": "Env_Default_Pattern",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_286/sm51_286_00.mdf2",
+        "matNameHash": 697382564
+    },
+    "2623655362": {
+        "name": "Env_Default_Roof_Normal_Blend",
+        "mdfPath": "environment/props/sm6x/sm62/sm62_340/sm62_340_00.mdf2",
+        "matNameHash": 152259268
+    },
+    "4263671638": {
+        "name": "Env_Default_SeeThrough",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_408/sm51_408_00.mdf2",
+        "matNameHash": 521941417
+    },
+    "4022298600": {
+        "name": "Env_Default_VAT",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_117/sm51_117_02.mdf2",
+        "matNameHash": 4100376630
+    },
+    "3992092950": {
+        "name": "Env_Default_Wet",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_005/sm50_005_00.mdf2",
+        "matNameHash": 1808603920
+    },
+    "3528469963": {
+        "name": "Env_Emissive",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_082/sm10_082_00.mdf2",
+        "matNameHash": 3399594826
+    },
+    "3069677493": {
+        "name": "Env_FlowingLava",
+        "mdfPath": "appdata/contents/dng_019/env_11065/sm14_022_00_forvertexcolor.mdf2",
+        "matNameHash": 1695578390
+    },
+    "144460453": {
+        "name": "Env_GVT_Default_Common",
+        "mdfPath": "appdata/field/env_802/newroad/f3e828d4841504d432ceb09d974da05b.mdf2",
+        "matNameHash": 1353072953
+    },
+    "2507303173": {
+        "name": "Env_GVT_Default_Common_Dirt",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_511/sm02_511_00.mdf2",
+        "matNameHash": 1360463535
+    },
+    "1052834910": {
+        "name": "Env_GVT_Default_Dirt",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_134/sm10_134_00.mdf2",
+        "matNameHash": 2821539093
+    },
+    "1869042150": {
+        "name": "Env_GVT_Emissive",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_134/sm10_134_00.mdf2",
+        "matNameHash": 1012863037
+    },
+    "1423984101": {
+        "name": "Env_GVT_Layer",
+        "mdfPath": "environment/props/sm6x/sm63/sm63_105/sm63_105_00.mdf2",
+        "matNameHash": 1426233024
+    },
+    "3281552412": {
+        "name": "Env_GVT_Layer_Common",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_022/sm10_022_01.mdf2",
+        "matNameHash": 1497500733
+    },
+    "1420093799": {
+        "name": "Env_GVT_Layer_Common_Dirt",
+        "mdfPath": "appdata/splinematerials/0b7dab026ce1f1f74d0d44e6d3276fa3.mdf2",
+        "matNameHash": 2919309311
+    },
+    "1386002232": {
+        "name": "Env_GVT_Layer_Dirt",
+        "mdfPath": "environment/props/sm5x/sm52/sm52_060/sm52_060_00.mdf2",
+        "matNameHash": 1411762038
+    },
+    "1327984746": {
+        "name": "Env_GVT_WorldAligned_Common",
+        "mdfPath": "environment/props/sm1x/sm13/sm13_004/sm13_004_02.mdf2",
+        "matNameHash": 404807116
+    },
+    "3620311028": {
+        "name": "Env_GVT_WorldAligned_Top_Common",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_026/sm10_026_02.mdf2",
+        "matNameHash": 1993643427
+    },
+    "1284223349": {
+        "name": "Env_GrassAlphaTest_2",
+        "mdfPath": "environment/props/sm2x/sm20/sm20_079/sm20_079_00.mdf2",
+        "matNameHash": 2437741766
+    },
+    "3579226758": {
+        "name": "Env_GrassAlphaTest_2_NoAnim",
+        "mdfPath": "environment/props/sm2x/sm20/sm20_084/sm20_084_00.mdf2",
+        "matNameHash": 3200642213
+    },
+    "64428479": {
+        "name": "Env_HardenedLava_Common_GVT",
+        "mdfPath": "appdata/contents/dng_019/env_10935/sm11_074_04_forvertexcolor.mdf2",
+        "matNameHash": 3168714113
+    },
+    "2628066893": {
+        "name": "Env_Layer",
+        "mdfPath": "appdata/field/env_1376/newsplinemesh/7fd602665eabf9388a2210dd4b88ab4c.mdf2",
+        "matNameHash": 2341575243
+    },
+    "465240151": {
+        "name": "Env_Layer_AlphaTest",
+        "mdfPath": "environment/props/sm5x/sm51/sm51_150/sm51_150_00.mdf2",
+        "matNameHash": 3645486953
+    },
+    "777597569": {
+        "name": "Env_Layer_Common",
+        "mdfPath": "appdata/field/env_1000/newsplinemesh/641daff5d175445ce10226d580d003b5.mdf2",
+        "matNameHash": 2681527540
+    },
+    "3146065204": {
+        "name": "Env_Layer_Common_Dirt",
+        "mdfPath": "appdata/splinematerials/8c502fcf178bb8631fcfedafe675e859.mdf2",
+        "matNameHash": 1563524937
+    },
+    "4267979554": {
+        "name": "Env_Layer_Common_Dirt_EcotopeMask",
+        "mdfPath": "appdata/field/env_1504/newroad/0e5867ef79008e1808dccaa906159852.mdf2",
+        "matNameHash": 2529870125
+    },
+    "3602018739": {
+        "name": "Env_Layer_Dirt",
+        "mdfPath": "appdata/field/env_1000/newsplinemesh/641daff5d175445ce10226d580d003b5.mdf2",
+        "matNameHash": 2645154017
+    },
+    "3928171640": {
+        "name": "Env_Layer_Interactive",
+        "mdfPath": "environment/props/sm8x/sm80/sm80_051/sm80_051_00.mdf2",
+        "matNameHash": 1599748089
+    },
+    "1978999227": {
+        "name": "Env_Ocean",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_469/sm02_469_00.mdf2",
+        "matNameHash": 434048567
+    },
+    "847781056": {
+        "name": "Env_OceanBeach",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_469/sm02_469_01.mdf2",
+        "matNameHash": 434048567
+    },
+    "624919460": {
+        "name": "Env_OceanFar",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_469/sm02_469_03.mdf2",
+        "matNameHash": 727877659
+    },
+    "627382171": {
+        "name": "Env_Onsen",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_165/onsen.mdf2",
+        "matNameHash": 2497444651
+    },
+    "317414619": {
+        "name": "Env_OnsenFall",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_165/sm02_165_06.mdf2",
+        "matNameHash": 2497444651
+    },
+    "693177140": {
+        "name": "Env_Pond",
+        "mdfPath": "appdata/field/water/sm62_318_03_forvertexcolor.mdf2",
+        "matNameHash": 1616442168
+    },
+    "2637352494": {
+        "name": "Env_River",
+        "mdfPath": "appdata/field/env_2134/newsplinemesh/e530dd599f4e4641511f108a5b2f7cad.mdf2",
+        "matNameHash": 1302327274
+    },
+    "3358767911": {
+        "name": "Env_Road",
+        "mdfPath": "appdata/field/env_1628/newroad/d08526e44d345c4b1297c4e4297d69c6.mdf2",
+        "matNameHash": 755397813
+    },
+    "61588778": {
+        "name": "Env_SpeedTree_Branch",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_194/sm02_194.mdf2",
+        "matNameHash": 3334014388
+    },
+    "153561480": {
+        "name": "Env_SpeedTree_TreeAlphaTest_2",
+        "mdfPath": "environment/props/sm2x/sm21/sm21_024/sm21_024.mdf2",
+        "matNameHash": 3437464705
+    },
+    "2585018670": {
+        "name": "Env_SpeedTree_TreeBillboard_2",
+        "mdfPath": "environment/props/sm2x/sm21/sm21_024/sm21_024.mdf2",
+        "matNameHash": 179876764
+    },
+    "1331378560": {
+        "name": "Env_SpeedTree_TreeOpaque_2",
+        "mdfPath": "environment/props/sm2x/sm21/sm21_024/sm21_024.mdf2",
+        "matNameHash": 1164335327
+    },
+    "3149379095": {
+        "name": "Env_SwingGrass",
+        "mdfPath": "appdata/field/env_1628/newroad/d08526e44d345c4b1297c4e4297d69c6.mdf2",
+        "matNameHash": 3732958226
+    },
+    "1519481598": {
+        "name": "Env_SwingGrass_EcotopeMask",
+        "mdfPath": "appdata/splinematerials/0068755f530cc409d0686bedc70b1db6.mdf2",
+        "matNameHash": 1405264540
+    },
+    "629680583": {
+        "name": "Env_SwingGrass_Interactive",
+        "mdfPath": "environment/props/sm8x/sm82/sm82_009/sm82_009_00.mdf2",
+        "matNameHash": 863628527
+    },
+    "2420778768": {
+        "name": "Env_Top_Common",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_050/sm10_050_02.mdf2",
+        "matNameHash": 603623391
+    },
+    "3124666228": {
+        "name": "Env_Transparent",
+        "mdfPath": "environment/props/sm5x/sm50/sm50_115/sm50_115_00.mdf2",
+        "matNameHash": 1487165644
+    },
+    "3389264558": {
+        "name": "Env_TransparentExpensive",
+        "mdfPath": "environment/props/sm6x/sm61/sm61_012/sm61_012_00.mdf2",
+        "matNameHash": 2672718141
+    },
+    "2934432220": {
+        "name": "Env_VolumeDecal_Emissive",
+        "mdfPath": "environment/layout/la9x/la90/la90_00/decalmagma_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1594224347": {
+        "name": "Env_VolumeDecal_FlowingWater",
+        "mdfPath": "environment/layout/la9x/la90/la90_00/decalpuddle_01_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3765348672": {
+        "name": "Env_VolumeDecal_Master",
+        "mdfPath": "environment/layout/la9x/la90/la90_00/burntwall_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2471210201": {
+        "name": "Env_VolumeDecal_Strata",
+        "mdfPath": "environment/layout/la9x/la90/la90_00/decalstrata02.mdf2",
+        "matNameHash": 2241156727
+    },
+    "385209748": {
+        "name": "Env_Waterfall",
+        "mdfPath": "environment/props/sm6x/sm62/sm62_401/waterfall_01_1.mdf2",
+        "matNameHash": 963607484
+    },
+    "4036635333": {
+        "name": "Env_Waterfall_NRD",
+        "mdfPath": "environment/props/sm6x/sm62/sm62_401/waterfall_01.mdf2",
+        "matNameHash": 963607484
+    },
+    "3901093270": {
+        "name": "Env_Waterfall_River_Blend",
+        "mdfPath": "environment/props/sm6x/sm62/sm62_401/waterfall_00.mdf2",
+        "matNameHash": 963607484
+    },
+    "3782163410": {
+        "name": "Env_WorldAligned_Common",
+        "mdfPath": "environment/props/sm1x/sm10/sm10_021/sm10_021_07.mdf2",
+        "matNameHash": 2971841035
+    },
+    "450158951": {
+        "name": "Env_WorldAligned_Common_Dry",
+        "mdfPath": "environment/props/sm6x/sm62/sm62_590/sm62_590_00.mdf2",
+        "matNameHash": 4180334020
+    },
+    "1760381994": {
+        "name": "Env_WorldAligned_Top_Common",
+        "mdfPath": "environment/props/sm0x/sm02/sm02_131/sm02_131_00.mdf2",
+        "matNameHash": 1029864928
+    },
+    "3690876877": {
+        "name": "Env_WorldAligned_Top_Common_Illusion",
+        "mdfPath": "vfx/mesh/player/ch09/13_illusionfloor_000_00.mdf2",
+        "matNameHash": 488180613
+    },
+    "2707914469": {
+        "name": "Event_AlembicMeshWater",
+        "mdfPath": "environment/props/sm8x/sm81/sm81_161/sm81_161_00.mdf2",
+        "matNameHash": 3301610088
+    },
+    "765627580": {
+        "name": "Event_Character_Detail_FugeHuman",
+        "mdfPath": "character/npc/materials/803/pants_803_lg_m_cs2400.mdf2",
+        "matNameHash": 3985856750
+    },
+    "1114323100": {
+        "name": "Event_Character_Detail_Michibikite",
+        "mdfPath": "character/npc/materials/800/tops_800_bd_m_cs1200.mdf2",
+        "matNameHash": 3050910412
+    },
+    "3979472427": {
+        "name": "Event_Character_Enemy_DragonDeath",
+        "mdfPath": "character/ch/ch58_000/ch58_000_event.mdf2",
+        "matNameHash": 3732700115
+    },
+    "1245380727": {
+        "name": "Event_Character_Enemy_DragonDeath_Eye",
+        "mdfPath": "character/ch/ch58_000/ch58_000_event.mdf2",
+        "matNameHash": 545287758
+    },
+    "2555634101": {
+        "name": "Event_Character_Eye_FugeHuman",
+        "mdfPath": "character/npc/materials/803/head_803_m_prebake_human_cs2400.mdf2",
+        "matNameHash": 22864041
+    },
+    "393526356": {
+        "name": "Event_Character_Eyebrow",
+        "mdfPath": "character/npc/materials/806/eyebrows_012_cs2400.mdf2",
+        "matNameHash": 407302422
+    },
+    "2715389760": {
+        "name": "Event_Character_Eyelash",
+        "mdfPath": "character/npc/materials/803/head_803_m_prebake_human_cs2400.mdf2",
+        "matNameHash": 2126568656
+    },
+    "1510758231": {
+        "name": "Event_Character_HairCap_FugeHuman",
+        "mdfPath": "character/npc/materials/803/hair_010_cs2400.mdf2",
+        "matNameHash": 83482132
+    },
+    "866338634": {
+        "name": "Event_Character_Hair_FugeHuman",
+        "mdfPath": "character/npc/materials/803/hair_010_cs2400.mdf2",
+        "matNameHash": 147609699
+    },
+    "3040259203": {
+        "name": "Event_Character_Pattern_FugeHuman",
+        "mdfPath": "character/npc/materials/807/mantle_807_m_cs2400.mdf2",
+        "matNameHash": 1866273821
+    },
+    "2208339391": {
+        "name": "Event_Character_Recolor_FugeHuman",
+        "mdfPath": "character/npc/materials/807/tops_807_wb_m_00_cs2400.mdf2",
+        "matNameHash": 3480435951
+    },
+    "1195394015": {
+        "name": "Event_Character_Skin_Body_Ingame_PreBaked_FugeHuman",
+        "mdfPath": "character/npc/materials/803/body_803_m_prebake_human_cs2400.mdf2",
+        "matNameHash": 3591636782
+    },
+    "3094544811": {
+        "name": "Event_Character_Skin_Body_Ingame_PreBaked_Michibikite",
+        "mdfPath": "character/npc/materials/800/body_800_m_prebake_human_cs1200.mdf2",
+        "matNameHash": 3591636782
+    },
+    "4290478548": {
+        "name": "Event_Character_Skin_Head_Ingame_PreBaked_FugeHuman",
+        "mdfPath": "character/npc/materials/803/head_803_m_prebake_human_cs2400.mdf2",
+        "matNameHash": 1649301498
+    },
+    "756656969": {
+        "name": "Event_HugeTentacle",
+        "mdfPath": "character/it/it10/040/it10_040_00.mdf2",
+        "matNameHash": 591439163
+    },
+    "1711349705": {
+        "name": "Event_LiquidSurface",
+        "mdfPath": "character/it/it10/042/it10_042_00.mdf2",
+        "matNameHash": 2967966919
+    },
+    "3837353293": {
+        "name": "GUIBufferTest",
+        "mdfPath": "gui/mastermaterial/guibuffertest/material/guibuffertest.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2814461327": {
+        "name": "LDRPostProcess_000_00",
+        "mdfPath": "vfx/system/custommotionblur/ldrpostprocess_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3610206984": {
+        "name": "MAui019904",
+        "mdfPath": "gui/mastermaterial/ui01/ui019/mmui019904.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1529192720": {
+        "name": "MAui19904_01_v3",
+        "mdfPath": "gui/mastermaterial/ui01/ui019/mmui019904_01_v2.mdf2",
+        "matNameHash": 2241156727
+    },
+    "58167279": {
+        "name": "MMMapTexColorAdjustment_v2",
+        "mdfPath": "gui/mastermaterial/mamaptexcoloradjustment_ui0203.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1940493864": {
+        "name": "MMTexColorAdjustment_v2",
+        "mdfPath": "gui/mastermaterial/matexcoloradjustment_ui0204.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2953612418": {
+        "name": "MMTexColorAdjustment_v5",
+        "mdfPath": "gui/mastermaterial/matexcoloradjustment_ui0203.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1492917661": {
+        "name": "MMTxtColorAdjustment_v2",
+        "mdfPath": "gui/mastermaterial/matxtcoloradjustment00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "4082938769": {
+        "name": "MM_ui01_line_00_v2",
+        "mdfPath": "gui/ui01/common/line/mmt_line_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1738930258": {
+        "name": "MM_ui020804_00_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0208/ma_ui020804_04.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3545767239": {
+        "name": "MM_ui020804_01_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0208/ma_ui020804_02.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2535562627": {
+        "name": "MM_ui020804_03_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0208/ma_ui020804_03.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3855975082": {
+        "name": "MM_ui020804_04_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0208/ma_ui020804_10.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1441091083": {
+        "name": "MM_ui020805_00",
+        "mdfPath": "gui/mastermaterial/ui02/ui020805/ma_ui020805_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2869920644": {
+        "name": "MM_ui021401_01_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0214/ma_ui021401_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "785265472": {
+        "name": "MM_ui021401_02_v2",
+        "mdfPath": "gui/mastermaterial/ui02/ui0214/ma_ui021401_02.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3892077455": {
+        "name": "MM_ui030201_v2",
+        "mdfPath": "gui/mastermaterial/ui03/ui030201/ma_ui030201.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2447902441": {
+        "name": "MM_ui041301_01_v3",
+        "mdfPath": "gui/ui04/ui0413/ma_ui041301_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3569563224": {
+        "name": "MM_ui060200_v2",
+        "mdfPath": "gui/mastermaterial/ui06/ui0602/ma_ui060200.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2959249086": {
+        "name": "MM_ui060201_v2",
+        "mdfPath": "gui/mastermaterial/ui06/ui0602/ma_ui060201.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2622031335": {
+        "name": "MM_ui060502_01_v2",
+        "mdfPath": "gui/mastermaterial/ui06/ui0605/ma_ui060502.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3618526247": {
+        "name": "MM_ui06201_2",
+        "mdfPath": "gui/mastermaterial/ui06/ui0602/ma_ui06201_2.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1015421598": {
+        "name": "MM_ui06201_3",
+        "mdfPath": "gui/mastermaterial/ui06/ui0602/ma_ui06201_3.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3392811794": {
+        "name": "MM_ui090100",
+        "mdfPath": "gui/mastermaterial/ui09/ui0901/ma_ui090100.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2876337351": {
+        "name": "MM_ui090909",
+        "mdfPath": "gui/mastermaterial/ui04/ui0411/ma_ui0411_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3510683972": {
+        "name": "Mosaic_01",
+        "mdfPath": "gui/model/ui06/01/02/ui06_01_03.mdf2",
+        "matNameHash": 3478946597
+    },
+    "647258873": {
+        "name": "RTModifier_000_00",
+        "mdfPath": "vfx/system/ripple/rtmodifier_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "883783460": {
+        "name": "ResizeRTT_000_00",
+        "mdfPath": "vfx/system/custommotionblur/resizertt_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2795109288": {
+        "name": "SHADER_HLOD_Content",
+        "mdfPath": "appdata/contents/_hlod/mat_out_instanced_merged_dng_015.mdf2",
+        "matNameHash": 2227569737
+    },
+    "4222845425": {
+        "name": "SHADER_HLOD_Field",
+        "mdfPath": "appdata/field/_hlod/fieldhlod_11.mdf2",
+        "matNameHash": 2227569737
+    },
+    "1937485925": {
+        "name": "ShadowProjection",
+        "mdfPath": "light/weather/shadowprojectiontexture/shadowprojection.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1227940406": {
+        "name": "UI_Default",
+        "mdfPath": "gui/model/ui06/01/02/ui06_01_02.mdf2",
+        "matNameHash": 2384900296
+    },
+    "636722541": {
+        "name": "UI_Mosaic_2",
+        "mdfPath": "gui/model/ui06/01/00/ui06_01_00.mdf2",
+        "matNameHash": 1925398288
+    },
+    "185513962": {
+        "name": "VFX_Default_Simple",
+        "mdfPath": "systems/effect/vfx_default_axis.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1925494380": {
+        "name": "VFX_MeshEmitter",
+        "mdfPath": "appsystem/ch/ch221/userdata/areamaterialdata/materials/ch21_002_a.mdf2",
+        "matNameHash": 2858735802
+    },
+    "643697961": {
+        "name": "VolumetricFog_000_00",
+        "mdfPath": "light/weather/volumetricfog/volumetricfog_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2854116716": {
+        "name": "VolumetricFog_Simple_000_00",
+        "mdfPath": "light/weather/volumetricfog/optimize/volumetricfog_simple_000_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3514068633": {
+        "name": "VolumetricFog_Simple_001_00",
+        "mdfPath": "light/weather/volumetricfog/optimize/volumetricfog_simple_000_01.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1316112406": {
+        "name": "VolumetricFog_Simple_003_00",
+        "mdfPath": "light/weather/volumetricfog/optimize/volumetricfog_simple_000_03.mdf2",
+        "matNameHash": 2241156727
+    },
+    "927268901": {
+        "name": "VolumetricFog_Simple_005_00",
+        "mdfPath": "vfx/material/volumetricfog/13_vfx_volumetricfog_simple_005_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "1248171526": {
+        "name": "VolumetricFog_Simple_006_00",
+        "mdfPath": "vfx/material/volumetricfog/13_vfx_volumetricfog_simple_006_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "455844058": {
+        "name": "defaultShader",
+        "mdfPath": "appdata/field/env_1170/mesh/env_1170_geo.mdf2",
+        "matNameHash": 1849433951
+    },
+    "1853744119": {
+        "name": "defaultShader",
+        "mdfPath": "character/_kit/_equipment/tops/257/tops_257_bd_f.mdf2",
+        "matNameHash": 1897492208
+    },
+    "2231122863": {
+        "name": "shader_distortion_standard",
+        "mdfPath": "re_engine_library/vfx_library/mesh/mesh_liquid/splash01/mesh_capcom_liquid_splash01_large_00_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "2881708388": {
+        "name": "ui06805",
+        "mdfPath": "gui/mastermaterial/ui06/ui0608/ui06805_00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3951574261": {
+        "name": "ui06_00_00",
+        "mdfPath": "gui/model/ui06/01/01/ui06_01_01.mdf2",
+        "matNameHash": 970173425
+    },
+    "2565534701": {
+        "name": "ui06_00_01",
+        "mdfPath": "gui/model/ui06/01/03/ui06_01_03.mdf2",
+        "matNameHash": 4503416
+    },
+    "1942647028": {
+        "name": "ui_materialtext00",
+        "mdfPath": "gui/mastermaterial/ui09/ui0901/ui_materialtext00.mdf2",
+        "matNameHash": 2241156727
+    },
+    "3507608429": {
+        "name": "ui_title_text01",
+        "mdfPath": "gui/mastermaterial/ui03/ui030201/ui_title.mdf2",
+        "matNameHash": 2241156727
+    }
+}

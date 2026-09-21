@@ -686,6 +686,8 @@ class WM_OT_ReloadPakCache(Operator):
 							self.report({"INFO"},"Reloaded cached pak info.")
 						else:
 							self.report({"ERROR"},"No pak files found in game directory.")
+					else:
+						self.report({"ERROR"},f"EXE path is invalid: {exePath}\nUse Set Game Extract Paths to fix this.")
 						
 						
 			except:
@@ -784,7 +786,9 @@ class WM_OT_CreatePakPatch(Operator):
 		layout.prop(self,"pakDir")
 		layout.prop(self,"outPath")
 		layout.prop(self,"openOutputFolder")
-def getAssetLibraryItems():
+_assetLibraryItemsCache = []
+def getAssetLibraryItems(self,context):
+	global _assetLibraryItemsCache
 	libEntryList = []
 	for lib in bpy.context.preferences.filepaths.asset_libraries:
 		if lib.name.startswith("RE Assets - "):
@@ -792,7 +796,8 @@ def getAssetLibraryItems():
 			gameInfoPath = os.path.join(bpy.path.abspath(lib.path),f"GameInfo_{gameName}.json")
 			if os.path.isfile(gameInfoPath):
 				libEntryList.append((bpy.path.abspath(lib.path),gameName,""))
-	return libEntryList
+	_assetLibraryItemsCache = libEntryList#Keep a reference alive, Blender can crash if a dynamic enum's strings get garbage collected
+	return _assetLibraryItemsCache
 class WM_OT_UnpackModPak(bpy.types.Operator, ImportHelper):
 	'''Unpack Mod Pak File'''
 	bl_idname = "re_asset.unpack_mod_pak"
@@ -809,7 +814,7 @@ class WM_OT_UnpackModPak(bpy.types.Operator, ImportHelper):
 	assetLib: bpy.props.EnumProperty(
 		name="Game",
 		description="Choose which game to extract the pak file for. The corresponding asset library for the game must be installed and set up for extracting files.",
-		items=getAssetLibraryItems()
+		items=getAssetLibraryItems
 		)
 	looseFilesPath : bpy.props.StringProperty(
 			name = "",

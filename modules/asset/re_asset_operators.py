@@ -1345,7 +1345,7 @@ class WM_OT_GenerateMaterialCompendium(Operator):
 			self.report({"INFO"},"Generated Material Compendium.")
 		except Exception as err:
 			print(err)
-			self.report({"ERROR"},"Could not generate compendium. See console. (Window > Toggle System Console)")
+			self.report({"ERROR"},f"Could not generate compendium: {str(err)} (See console for details, Window > Toggle System Console)")
 		return {'FINISHED'}
 	
 class WM_OT_GenerateRSZCRCCompendium(Operator):
