@@ -1,4 +1,4 @@
-# Updated DD2 MDF Converter
+# RE Asset Library
 
 Convert DD2 md.40 to mdf.51
 Select the DD2 library in the Asset Browser
@@ -43,14 +43,6 @@ The format change is explicit; installing this addon does not rewrite existing
 catalog metadata. Old catalogs remain usable with old game data until changed.
 The button does not update thumbnails, create new asset paths, or convert Mods.
 See [validation and limitations](DD2-PATCH-VALIDATION.md).
-
-The original author's notice and documentation follow below.
-
-# Upstream End Of Support Notice
-
-I am ending development of my RE Engine addons. No further updates or support will be provided.
-
-Feel free to fork the project if you want to.
 
 ---
 
