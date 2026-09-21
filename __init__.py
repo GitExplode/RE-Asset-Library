@@ -94,6 +94,10 @@ from .modules.rszmini.re_rsz_updater_operators import (
 	WM_OT_BatchRSZUpdater,
 
 )
+from .modules.rszmini.re_pfb_dd2_batch_operators import (
+	WM_OT_BatchConvertDD2PFBVersion,
+
+)
 
 from .modules.asset.re_asset_propertyGroups import (
 	REAssetWhiteListEntryPropertyGroup,
@@ -798,6 +802,8 @@ classes = [
 	WM_OT_BlenderMDFUpdater,
 	
 	WM_OT_BatchRSZUpdater,
+	
+	WM_OT_BatchConvertDD2PFBVersion,
 	
 	WM_OT_InitializeREAssetLibrary,
 	WM_OT_DownloadREAssetLibrary,

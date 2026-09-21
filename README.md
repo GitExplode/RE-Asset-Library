@@ -1,26 +1,8 @@
-# Convert DD2 md.40 to mdf.51
-
-Select the DD2 library in the Asset Browser
-Open the Asset Browser, switch its library dropdown to your DD2 library so the RE Asset Library panel shows "Library: DD2" with its operator buttons.
-
-Run "Use DD2 September 2026 Formats"
-This button only appears for the DD2 library. It rewrites GameInfo_DD2.json so MESH_VERSION/MDF2_VERSION/TEX_VERSION point at 260421070/51/251211553 instead of the old values.
-
-Reload Pak Cache
-Refreshes the addon's index of your game's pak files so it knows about the current (post-update) file layout before extracting anything.
-
-Force Extract Files
-Re-extracts the catalog using the new version numbers you just set. Skipping this leaves the library still pointing at old-format extracted data even though GameInfo says 51.
-
-Generate Material Compendium
-Open REAssetLibrary_DD2.blend. Found in the RE Asset Library panel (the button with the render-layers icon). This reads the freshly extracted .mdf2.51 files and writes MaterialCompendium_DD2.json next to the library's .blend file — this is the file the Batch MDF Updater is actually looking for.
-
-Run the Batch MDF Updater
-Now "DD2" will appear in the Game dropdown, since getCompendiumAssetLibraryItems() finds the compendium it was missing. Point it at your mod folder and it will rewrite each .mdf2.40 to .51 using the sample materials from the compendium
-
 # miqote69 fork: DD2 Title Update 3.2
 
 **0.25.1 — September 6, 2026.**
+
+[Download this fork](https://github.com/miqote69/RE-Asset-Library/archive/refs/heads/main.zip)
 
 Fixes reading DD2's September 2026 PAK format: flag `0x40` introduces an
 additional table before the encryption key and chunk remap table. Reading
