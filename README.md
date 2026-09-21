@@ -1,20 +1,25 @@
 # RE Asset Library Fork
 
 Convert DD2 md.40 to mdf.51
+
 Select the DD2 library in the Asset Browser
 
 Open the Asset Browser, switch its library dropdown to your DD2 library so the RE Asset Library panel shows "Library: DD2" with its operator buttons.
 
 Run "Use DD2 September 2026 Formats"
+
 This button only appears for the DD2 library. It rewrites GameInfo_DD2.json so MESH_VERSION/MDF2_VERSION/TEX_VERSION point at 260421070/51/251211553 instead of the old values.
 
 Reload Pak Cache
+
 Refreshes the addon's index of your game's pak files so it knows about the current (post-update) file layout before extracting anything.
 
 Force Extract Files
+
 Re-extracts the catalog using the new version numbers you just set. Skipping this leaves the library still pointing at old-format extracted data even though GameInfo says 51.
 
 Generate Material Compendium
+
 Open REAssetLibrary_DD2.blend. Found in the RE Asset Library panel (the button with the render-layers icon). This reads the freshly extracted .mdf2.51 files and writes MaterialCompendium_DD2.json next to the library's .blend file — this is the file the Batch MDF Updater is actually looking for.
 
 Run the Batch MDF Updater
